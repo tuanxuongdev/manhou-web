@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://manhou.lingvie.com/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/terms/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/terms/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/support/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/support/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
+  </url>
+</urlset>
