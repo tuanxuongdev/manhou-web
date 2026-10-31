@@ -12,12 +12,9 @@
   }
   function syncThemeBtn() {
     if (!themeBtn) return;
-    themeBtn.setAttribute('aria-pressed', String(isDark()));
-    var meta = document.querySelector('meta[name="theme-color"]:not([media])');
-    if (meta) meta.content = isDark() ? '#141014' : '#FBF4F3';
+    themeBtn.setAttribute('aria-pressed', String(isDark())); // theme-color stays plum: the header is plum in both themes
   }
   if (themeBtn) {
-    if (!root.getAttribute('data-theme')) root.setAttribute('data-theme', isDark() ? 'dark' : 'light');
     syncThemeBtn();
     themeBtn.addEventListener('click', function () {
       var next = isDark() ? 'light' : 'dark';
