@@ -110,6 +110,79 @@
     });
   });
 
+  /*
+   * Swap stages (looks switcher, lipstick / hair, background colours): buttons with data-src / data-srcset swap a
+   * pre-rendered variant into the hidden one of two stacked images (.sw-a / .sw-b), which cross-fade once it has
+   * loaded. Buttons are real toggles (aria-pressed), arrow keys move inside a group, a live region names the choice.
+   * Optional: [data-step] prev / next, [data-hold] shows the [data-original] variant while pressed, data-auto="ms"
+   * advances slowly while visible (never with reduced motion; paused on hover, focus or touch), swipe on the stage.
+   */
+  Array.prototype.forEach.call(document.querySelectorAll('[data-swap]'), function (root) {
+    var imgs = root.querySelectorAll('img.sw-a, img.sw-b');
+    if (imgs.length < 2) return;
+    var a = imgs[0], b = imgs[1], holder = a.parentNode, front = a;
+    var stage = root.classList.contains('stage') ? root : root.querySelector('.stage') || holder;
+    var live = root.querySelector('[data-live]'), nameEl = root.querySelector('[data-name]:not(button)'), groupEl = root.querySelector('[data-group]:not(button)');
+    var btns = Array.prototype.slice.call(root.querySelectorAll('button[data-src]'));
+    function groupOf(btn) { return btn.closest('[role=group]') || root; }
+    function visibleBtns() { return btns.filter(function (x) { return !x.closest('[hidden]'); }); }
+    function show(btn, quiet) {
+      var back = front === a ? b : a;
+      back.onload = function () { holder.classList.toggle('flip', back === b); stage.classList.toggle('flip', back === b); front = back; };
+      back.srcset = btn.getAttribute('data-srcset') || ''; back.src = btn.getAttribute('data-src');
+      if (back.complete && back.naturalWidth) back.onload();
+      if (!quiet) {
+        Array.prototype.forEach.call(groupOf(btn).querySelectorAll('button[data-src]'), function (x) { x.setAttribute('aria-pressed', String(x === btn)); });
+        var n = btn.getAttribute('data-name') || '', g = btn.getAttribute('data-group') || '';
+        if (nameEl) nameEl.textContent = n; if (groupEl) groupEl.textContent = g;
+        if (live) live.textContent = g ? n + ' · ' + g : n;
+      }
+    }
+    function current() { var v = visibleBtns(); for (var i = 0; i < v.length; i++) if (v[i].getAttribute('aria-pressed') === 'true') return i; return 0; }
+    function step(d) { var v = visibleBtns(); if (!v.length) return; show(v[(current() + d + v.length) % v.length]); }
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', function () { show(btn); stop(); });
+      btn.addEventListener('keydown', function (e) {
+        var k = e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? -1 : 0;
+        if (!k) return; e.preventDefault();
+        var g = Array.prototype.slice.call(groupOf(btn).querySelectorAll('button[data-src]'));
+        var nx = g[(g.indexOf(btn) + k + g.length) % g.length]; nx.focus(); show(nx); stop();
+      });
+    });
+    /* Tabs inside a stage (Son | Tóc): show the pressed choice of the newly visible group. */
+    Array.prototype.forEach.call(root.querySelectorAll('[role=tab]'), function (tab) {
+      tab.addEventListener('click', function () { setTimeout(function () { var v = visibleBtns(); var p = v.filter(function (x) { return x.getAttribute('aria-pressed') === 'true'; })[0] || v[0]; if (p) show(p); }, 0); });
+    });
+    Array.prototype.forEach.call(root.querySelectorAll('[data-step]'), function (s) { s.addEventListener('click', function () { step(+s.getAttribute('data-step')); stop(); }); });
+    var hold = root.querySelector('[data-hold]'), orig = root.querySelector('button[data-original]');
+    if (hold && orig) {
+      var keep = null;
+      var down = function (e) { if (e.type === 'keydown' && e.key !== ' ' && e.key !== 'Enter') return; e.preventDefault(); if (keep) return; keep = btns.filter(function (x) { return x.getAttribute('aria-pressed') === 'true'; })[0]; show(orig, true); stop(); };
+      var up = function () { if (keep) { show(keep, true); keep = null; } };
+      hold.addEventListener('pointerdown', down); hold.addEventListener('keydown', down);
+      ['pointerup', 'pointerleave', 'pointercancel', 'keyup', 'blur'].forEach(function (ev) { hold.addEventListener(ev, up); });
+    }
+    /* Swipe on the stage. */
+    var sx = null;
+    stage.addEventListener('pointerdown', function (e) { if (!e.target.closest('button,input')) sx = e.clientX; });
+    stage.addEventListener('pointerup', function (e) { if (sx === null) return; var dx = e.clientX - sx; sx = null; if (Math.abs(dx) > 40 && root.querySelector('[data-step]')) { step(dx < 0 ? 1 : -1); stop(); } });
+    /* Slow auto-advance while on screen; preload the other variants once the section is near. */
+    var every = +root.getAttribute('data-auto') || 0, timer = null, paused = false, seen = false;
+    function stop() { if (timer) { clearInterval(timer); timer = null; } every = 0; }
+    function play() { if (!every || reduce || timer || paused) return; timer = setInterval(function () { step(1); }, every); }
+    function pause() { if (timer) { clearInterval(timer); timer = null; } }
+    ['pointerenter', 'focusin', 'touchstart'].forEach(function (ev) { root.addEventListener(ev, function () { paused = true; pause(); }, { passive: true }); });
+    ['pointerleave', 'focusout'].forEach(function (ev) { root.addEventListener(ev, function () { paused = false; if (seen) play(); }); });
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (en) {
+        en.forEach(function (x) {
+          seen = x.isIntersecting;
+          if (seen) { btns.forEach(function (btn) { var i = new Image(); i.srcset = btn.getAttribute('data-srcset') || ''; i.sizes = a.sizes; i.src = btn.getAttribute('data-src'); }); play(); } else pause();
+        });
+      }, { rootMargin: '200px 0px' }).observe(root);
+    }
+  });
+
   /* Sticky download bar: shows once the hero buttons scroll away, hides again over the closing call to action. */
   var dock = document.querySelector('.dock');
   if (dock && 'IntersectionObserver' in window) {
