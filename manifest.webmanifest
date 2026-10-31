@@ -1,14 +1,14 @@
 {
   "name": "Manhou",
   "short_name": "Manhou",
-  "description": "App chỉnh ảnh miễn phí không logo: làm đẹp, làm ảnh thẻ online in đúng cỡ, xóa nền ảnh, ghép ảnh, chỉnh sửa video TikTok. AI chạy ngay trên máy, không quảng cáo.",
+  "description": "App chỉnh ảnh miễn phí, không logo, không quảng cáo: làm đẹp, trang điểm, xóa phông, làm ảnh thẻ in đúng cỡ, ghép ảnh và chỉnh sửa video. AI chạy ngay trên máy.",
   "lang": "vi",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "minimal-ui",
-  "background_color": "#141014",
-  "theme_color": "#141014",
+  "background_color": "#FFF8F6",
+  "theme_color": "#FFF8F6",
   "icons": [
     {
       "src": "icon-192.png",
