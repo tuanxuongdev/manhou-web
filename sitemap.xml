@@ -640,4 +640,100 @@
     <xhtml:link rel="alternate" hreflang="ms" href="https://manhou.lingvie.com/ms/bantuan/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
   </url>
+  <url>
+    <loc>https://manhou.lingvie.com/huong-dan/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/guides/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/huong-dan/anh-the-tai-nha/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/anh-the-tai-nha/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/id-photo-at-home/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/anh-the-tai-nha/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/guides/id-photo-at-home/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/anh-the-tai-nha/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/id-photo-at-home/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/anh-the-tai-nha/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/huong-dan/kich-thuoc-anh-the/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/kich-thuoc-anh-the/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/id-photo-sizes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/kich-thuoc-anh-the/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/guides/id-photo-sizes/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/kich-thuoc-anh-the/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/id-photo-sizes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/kich-thuoc-anh-the/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/huong-dan/xoa-phong-anh-chan-dung/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/xoa-phong-anh-chan-dung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/remove-background-portrait/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/xoa-phong-anh-chan-dung/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/guides/remove-background-portrait/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/xoa-phong-anh-chan-dung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/remove-background-portrait/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/xoa-phong-anh-chan-dung/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/huong-dan/chinh-anh-dep-tu-nhien/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/chinh-anh-dep-tu-nhien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/natural-beauty-retouch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/chinh-anh-dep-tu-nhien/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/guides/natural-beauty-retouch/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/chinh-anh-dep-tu-nhien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/natural-beauty-retouch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/chinh-anh-dep-tu-nhien/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/huong-dan/xoa-nguoi-vat-thua-anh-du-lich/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/xoa-nguoi-vat-thua-anh-du-lich/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/remove-objects-from-photos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/xoa-nguoi-vat-thua-anh-du-lich/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/en/guides/remove-objects-from-photos/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/huong-dan/xoa-nguoi-vat-thua-anh-du-lich/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/guides/remove-objects-from-photos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/huong-dan/xoa-nguoi-vat-thua-anh-du-lich/"/>
+  </url>
 </urlset>
