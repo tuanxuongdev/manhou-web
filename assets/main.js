@@ -212,4 +212,24 @@
   Array.prototype.forEach.call(document.querySelectorAll('.menu a'), function (a) {
     a.addEventListener('click', function () { var d = a.closest('details'); if (d) d.open = false; });
   });
+
+  /* Header pop-overs (language menu, mobile menu): one open at a time; Escape closes and returns focus to the
+     button, a click outside closes. Without JS they are plain <details> and still work. */
+  var pops = document.querySelectorAll('.nav details');
+  Array.prototype.forEach.call(pops, function (d) {
+    d.addEventListener('toggle', function () {
+      if (d.open) Array.prototype.forEach.call(pops, function (o) { if (o !== d) o.open = false; });
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    Array.prototype.forEach.call(pops, function (d) {
+      if (!d.open) return;
+      d.open = false;
+      var s = d.querySelector('summary'); if (s && d.contains(document.activeElement)) s.focus();
+    });
+  });
+  document.addEventListener('click', function (e) {
+    Array.prototype.forEach.call(pops, function (d) { if (d.open && !d.contains(e.target)) d.open = false; });
+  });
 })();

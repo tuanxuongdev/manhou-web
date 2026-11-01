@@ -6,6 +6,9 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
   </url>
   <url>
@@ -14,6 +17,42 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/id/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/th/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/ja/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/"/>
   </url>
   <url>
@@ -22,6 +61,9 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/privasi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
   </url>
   <url>
@@ -30,6 +72,42 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/privasi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/id/privasi/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/privasi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/th/privacy/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/privasi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/ja/privacy/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/privasi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/privacy/"/>
   </url>
   <url>
@@ -38,6 +116,9 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/terms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
   </url>
   <url>
@@ -46,6 +127,42 @@
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/id/ketentuan/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/th/terms/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/ja/terms/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/terms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/terms/"/>
   </url>
   <url>
@@ -54,6 +171,9 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/bantuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/support/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
   </url>
   <url>
@@ -62,6 +182,42 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/bantuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/id/bantuan/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/bantuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/th/support/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/bantuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
+  </url>
+  <url>
+    <loc>https://manhou.lingvie.com/ja/support/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://manhou.lingvie.com/support/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://manhou.lingvie.com/en/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://manhou.lingvie.com/id/bantuan/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://manhou.lingvie.com/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manhou.lingvie.com/ja/support/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://manhou.lingvie.com/support/"/>
   </url>
 </urlset>
