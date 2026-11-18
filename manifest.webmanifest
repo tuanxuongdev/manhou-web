@@ -1,7 +1,7 @@
 {
   "name": "Manhou",
   "short_name": "Manhou",
-  "description": "App chỉnh ảnh miễn phí, không logo, không quảng cáo: làm đẹp, trang điểm, xóa phông, làm ảnh thẻ in đúng cỡ, ghép ảnh và chỉnh sửa video. AI chạy ngay trên máy.",
+  "description": "App chỉnh ảnh miễn phí, không logo, không cần tài khoản: làm đẹp, trang điểm, xóa phông, làm ảnh thẻ in đúng cỡ, ghép ảnh và chỉnh sửa video. AI chạy ngay trên máy.",
   "lang": "vi",
   "dir": "ltr",
   "start_url": "./",
